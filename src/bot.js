@@ -1,6 +1,6 @@
 require('dotenv').config();
 require('reflect-metadata');
-require("./client/server/express.js");
+// require("./client/server/express.js");
 const { createConnection } = require('typeorm');
 const { Client, GatewayIntentBits, Partials, Constants, Collection, EmbedBuilder, SlashCommandBuilder, Events } = require('discord.js');
 const fs = require('node:fs');
